@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = ""
+authors = ["Joon Kang <denim.bluu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+pandas = "^1.4.1"
+numpy = ">=1.15.0"
+sklearn = "^0.0"
+scipy = ">=1.7.3"
+matplotlib = "^3.5.1"
+jupyterlab = "^3.3.2"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+mypy = "^0.942"
+seaborn = "^0.11.2"
+pymc3 = "^3.11.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
